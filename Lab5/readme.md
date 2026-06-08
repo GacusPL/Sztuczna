@@ -1,7 +1,9 @@
 # Sprawozdanie z Laboratorium nr 5
 
 **Temat:** Rekurencyjne Sieci Neuronowe (RNN) z bramkami LSTM i GRU na przykładzie regresji do predykcji cen akcji.
+
 **Prowadzący:** dr inż. Jacek Paluszak
+
 **Student:** Kacper Szponar 21306
 
 ---
