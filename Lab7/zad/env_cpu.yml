@@ -1,0 +1,35 @@
+name: rag_cpu
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+
+  # PyTorch stack (CPU version – bez CUDA)
+  - pytorch=2.3.1
+  - torchvision
+  - torchaudio
+  - cpuonly
+
+  # NLP / HF stack
+  - pip:
+      - transformers==4.43.3
+      - accelerate==0.33.0
+      - safetensors
+      - sentencepiece
+      - tokenizers>=0.19.0
+      - faiss-cpu
+      - pymupdf
+      - sentence_transformers
+      - iprogress
+      - ipywidgets
+
+
+      # useful utilities
+      - numpy
+      - scipy
+      - tqdm
+      - huggingface-hub
